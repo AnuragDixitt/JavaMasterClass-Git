@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"maven.view": "flat",
+		"java.dependency.packagePresentation": "flat"
+	},
+	"extensions": {
+		"recommendations": [
+			"aaron-bond.better-comments"
+		]
+	}
+}
