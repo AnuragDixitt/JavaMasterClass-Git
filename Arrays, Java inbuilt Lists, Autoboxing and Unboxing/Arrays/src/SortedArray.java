@@ -5,7 +5,7 @@ public class SortedArray {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int [] myIntegers = getIntegers(5);
+        int [] myIntegers = getIntegers(6);
         int [] sorted = sortIntegers(myIntegers);
         printArray(sorted);
     }

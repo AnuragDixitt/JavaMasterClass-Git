@@ -5,17 +5,17 @@ public class Hamburger {
     private double price;
     private String breadRollType;
 
-    private String addtion1Name;
-    private double addtion1Price;
+    private String addition1Name;
+    private double addition1Price;
 
-    private String addtion2Name;
-    private double addtion2Price;
+    private String addition2Name;
+    private double addition2Price;
 
-    private String addtion3Name;
-    private double addtion3Price;
+    private String addition3Name;
+    private double addition3Price;
 
-    private String addtion4Name;
-    private double addtion4Price;
+    private String addition4Name;
+    private double addition4Price;
 
     public Hamburger(String name, String meat, double price, String breadRollType) {
         this.name = name;
@@ -25,47 +25,47 @@ public class Hamburger {
     }
 
     public void addHamburgerAddition1(String name, double price) {
-        this.addtion1Name = name;
-        this.addtion1Price = price;
+        this.addition1Name = name;
+        this.addition1Price = price;
     }
 
     public void addHamburgerAddition2(String name, double price) {
-        this.addtion2Name = name;
-        this.addtion2Price = price;
+        this.addition2Name = name;
+        this.addition2Price = price;
     }
 
     public void addHamburgerAddition3(String name, double price) {
-        this.addtion3Name = name;
-        this.addtion3Price = price;
+        this.addition3Name = name;
+        this.addition3Price = price;
     }
 
     public void addHamburgerAddition4(String name, double price) {
-        this.addtion4Name = name;
-        this.addtion4Price = price;
+        this.addition4Name = name;
+        this.addition4Price = price;
     }
 
-    public double itemizehamburger(){
+    public double itemizeHamburger(){
         double hamburgerPrice = this.price;
         System.out.println(this.name + " hamburger " + " on a " + this.breadRollType + " roll " + "with " + this.meat + ", price is " + this.price);
 
-        if (this.addtion1Name != null) {
-            hamburgerPrice += this.addtion1Price;
-            System.out.println("Added " + this.addtion1Name + " for an extra " + this.addtion1Price);
+        if (this.addition1Name != null) {
+            hamburgerPrice += this.addition1Price;
+            System.out.println("Added " + this.addition1Name + " for an extra " + this.addition1Price);
         }
 
-        if (this.addtion2Name != null) {
-            hamburgerPrice += this.addtion2Price;
-            System.out.println("Added " + this.addtion2Name + " for an extra " + this.addtion2Price);
+        if (this.addition2Name != null) {
+            hamburgerPrice += this.addition2Price;
+            System.out.println("Added " + this.addition2Name + " for an extra " + this.addition2Price);
         }
 
-        if (this.addtion3Name != null) {
-            hamburgerPrice += this.addtion3Price;
-            System.out.println("Added " + this.addtion3Name + " for an extra " + this.addtion3Price);
+        if (this.addition3Name != null) {
+            hamburgerPrice += this.addition3Price;
+            System.out.println("Added " + this.addition3Name + " for an extra " + this.addition3Price);
         }
 
-        if (this.addtion4Name != null) {
-            hamburgerPrice += this.addtion4Price;
-            System.out.println("Added " + this.addtion4Name + " for an extra " + this.addtion4Price);
+        if (this.addition4Name != null) {
+            hamburgerPrice += this.addition4Price;
+            System.out.println("Added " + this.addition4Name + " for an extra " + this.addition4Price);
         }
         return hamburgerPrice;
     }
